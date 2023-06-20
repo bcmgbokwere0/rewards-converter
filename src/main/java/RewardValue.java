@@ -11,9 +11,15 @@ public class RewardValue {
             rewardMiles = miles;
         }
 
+        public double getCashValue(){
 
+                return rewardCash;
+        }
 
+        public int getMilesValue(){
 
+                return rewardMiles;
+        }
 
 
 }
